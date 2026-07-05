@@ -287,24 +287,24 @@ export const businessConfig: BusinessConfig = {
       title: "Sewer Pipe Hydro-Jetting",
       description: "Full restoration of blocked main sewer line filled with grease and tree roots.",
       category: "Drain Cleaning",
-      beforeUrl: "/images/sewer-before.png",
-      afterUrl: "/images/sewer-after.png"
+      beforeUrl: "/images/sewer-before.webp",
+      afterUrl: "/images/sewer-after.webp"
     },
     {
       id: "gal-2",
       title: "Tankless Water Heater Install",
       description: "Upgraded an old leaky 50-gallon tank to a premium Navien condensing tankless unit.",
       category: "Water Heaters",
-      beforeUrl: "/images/heater-before.png",
-      afterUrl: "/images/heater-after.png"
+      beforeUrl: "/images/heater-before.webp",
+      afterUrl: "/images/heater-after.webp"
     },
     {
       id: "gal-3",
       title: "Whole-House PEX Repiping",
       description: "Replaced old rusting galvanized steel piping with a brand-new clean PEX manifold system.",
       category: "Repiping",
-      beforeUrl: "/images/repiping-before.png",
-      afterUrl: "/images/repiping-after.png"
+      beforeUrl: "/images/repiping-before.webp",
+      afterUrl: "/images/repiping-after.webp"
     }
   ],
   serviceAreas: {

@@ -48,6 +48,7 @@ export const Gallery: React.FC = () => {
             {/* Interactive Slider Container */}
             <div
               className="relative aspect-video rounded-3xl overflow-hidden border border-slate-200 shadow-lg cursor-ew-resize select-none bg-slate-100"
+              style={{ containerType: "inline-size" }}
               onMouseMove={(e) => {
                 if (e.buttons === 1) handleSliderMove(e);
               }}
@@ -71,7 +72,10 @@ export const Gallery: React.FC = () => {
                 className="absolute inset-y-0 left-0 overflow-hidden pointer-events-none"
                 style={{ width: `${sliderPosition}%` }}
               >
-                <div className="absolute inset-y-0 left-0 w-[800px] h-full aspect-video">
+                <div 
+                  className="absolute inset-y-0 left-0 h-full"
+                  style={{ width: "100cqw" }}
+                >
                   <Image
                     src={activeProject.beforeUrl}
                     alt="Before plumbing service"

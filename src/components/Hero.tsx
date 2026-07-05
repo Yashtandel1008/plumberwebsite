@@ -130,7 +130,7 @@ export const Hero: React.FC = () => {
             {/* The Image Container */}
             <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border border-slate-200/60 shadow-xl bg-slate-100">
               <Image
-                src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800"
+                src="/images/heater-before.png"
                 alt="Professional plumbing service technician at work"
                 fill
                 priority
